@@ -14,7 +14,7 @@ while read -r ciudad mes ano consumo; do
         ciu1="$ciudad"
         mes1="$mes"
         ano1="$ano"
-
+        
     elif [ "$consumo"  < "$min" ]; then
         min="$consumo" 
         ciu2="$ciudad"
